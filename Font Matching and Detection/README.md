@@ -9,7 +9,7 @@ pipeline **and** documents **why every neural-network layer is present**.
 
 | Step | Command | Output |
 |------|---------|--------|
-| 1. Generate synthetic pages | `python generate_dataset.py` | `dataset/` (8 000 pages + labels) |
+| 1. Generate synthetic pages | `python generate_dataset.py` | `dataset/` ( 10,000 pages + labels) |
 | 2. Train classifier | `python train_font_net.py` | `font_net.pth` |
 | 4. Detect & classify | *(edit paths at bottom of `detect_and_classify.py` then run)*<br>`python detect_and_classify.py` | `annotated.jpg` + JSON |
 
