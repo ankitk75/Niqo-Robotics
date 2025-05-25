@@ -30,5 +30,5 @@ pipeline **and** documents **why every neural-network layer is present**.
 | **FC 256 → 10 (logits)** | 10-font classification |
 | **Label-smoothing 0.1** | Reduces over-confident soft-max outputs |
 
-### 1. Output Image
+### Output Image
 <img src="annotated.jpg" alt="output"/>
