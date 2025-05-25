@@ -40,6 +40,7 @@ python -m venv venv && source venv/bin/activate
 pip install torch torchvision opencv-python numpy seaborn scikit-learn tqdm
 ```
 
+---
 
 # 2. Sliding-Window Max-Pooling
 
@@ -56,6 +57,7 @@ Only **NumPy** and the Python standard library are used.
 ---
 ### 1. Output
 <img src="Max_pool/output.png" alt="output"/>
+
 ## How to run
 
 ```bash
