@@ -55,7 +55,7 @@ Only **NumPy** and the Python standard library are used.
 
 ---
 ### 1. Output
-<img src="Max_pool/annotated.jpg" alt="output"/>
+<img src="Max_pool/output.png" alt="output"/>
 ## How to run
 
 ```bash
