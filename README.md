@@ -11,7 +11,6 @@ pipeline **and** documents **why every neural-network layer is present**.
 |------|---------|--------|
 | 1. Generate synthetic pages | `python generate_dataset.py` | `dataset/` (8 000 pages + labels) |
 | 2. Train classifier | `python train_font_net.py` | `font_net.pth` |
-| 3. *(optional)* Confusion matrix | `python evaluate.py` | `confusion_matrix.png` |
 | 4. Detect & classify | *(edit paths at bottom of `detect_and_classify.py` then run)*<br>`python detect_and_classify.py` | `annotated.jpg` + JSON |
 
 ---
@@ -31,7 +30,8 @@ pipeline **and** documents **why every neural-network layer is present**.
 | **FC 256 → 10 (logits)** | 10-font classification |
 | **Label-smoothing 0.1** | Reduces over-confident soft-max outputs |
 
-*Total parameters ≈ 2 million — trains quickly on laptop GPU/CPU.*
+### 1. Output Image
+<img src="annotated.jpg" alt="output" width="900"/>
 
 ## Install Dependencies
 
