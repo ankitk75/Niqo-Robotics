@@ -11,6 +11,8 @@ Only **NumPy** and the Python standard library are used.
 | `demo.py`           | lets you pick *m* and *k*, runs both versions, prints runtimes and checks that the results match | — |
 
 ---
+## Output
+<img src="output.png" alt="output"/>
 
 ## How to run
 
