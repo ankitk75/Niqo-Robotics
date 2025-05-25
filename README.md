@@ -31,7 +31,7 @@ pipeline **and** documents **why every neural-network layer is present**.
 | **Label-smoothing 0.1** | Reduces over-confident soft-max outputs |
 
 ### 1. Output Image
-<img src="annotated.jpg" alt="output" width="900"/>
+<img src="Font Matching and Detection/annotated.jpg" alt="output"/>
 
 ## Install Dependencies
 
