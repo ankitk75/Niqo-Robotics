@@ -54,7 +54,8 @@ Only **NumPy** and the Python standard library are used.
 | `demo.py`           | lets you pick *m* and *k*, runs both versions, prints runtimes and checks that the results match | — |
 
 ---
-
+### 1. Output
+<img src="Max_pool/annotated.jpg" alt="output"/>
 ## How to run
 
 ```bash
